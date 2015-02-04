@@ -177,17 +177,23 @@ XEP-0351: Recipient Server-side Filtration
 
 ----
 
-Privileged Entity
-===================
-
-TODO
-
-----
-
 Namespace Delegation
 ======================
 
-TODO
+* some services are reserved to server
+* delegate these services to external entity
+* decentralise
+* quick developing cycle
+* server agnostic implementations
+
+----
+
+Privileged Entity
+===================
+
+* give server-like permissions
+* with namespace delegation, allow to implement PEP
+* roster management
 
 ----
 
@@ -208,9 +214,9 @@ Implementations
 -----------------
 
 * LiJ (Live Jabber)
-* Salut à Toi (aka SàT)
-* Movim
 * Jappix
+* Movim
+* Salut à Toi (aka SàT)
 
 ----
 
@@ -232,6 +238,50 @@ LiJ
 .. image:: assets/lij-shot.png
     :height: 600px
     :width: 800px
+
+----
+
+Jappix
+=======
+
+* popular web client
+* BOSH/Javascript based
+
+----
+
+.. image:: assets/jappix_1.png
+    :height: 715px
+    :width: 1000px
+
+----
+
+Movim (My Open Virtual Identity Manager)
+========================================
+
+* web client
+* PHP/Javascript
+* use microblog to show RSS/Atom feeds
+
+----
+
+.. image:: assets/movim.png
+    :height: 483px
+    :width: 1000px
+
+----
+
+Salut à Toi
+===========
+
+* Multi-frontends Multi-purpose client
+* mainly Python
+* special use of publisher roster
+
+----
+
+.. image:: assets/overview_libervia.png
+    :height: 687px
+    :width: 1000
 
 ----
 
